@@ -1,13 +1,20 @@
-import { Avatar } from "./Avatar"
 import { LogoBig } from "./LogoBig"
+import styles from '../componets-landingPage/Avatar.module.css'
+
+export function Avatar({ hasBorder = true, }) {
+  return (
+    <img className={hasBorder ? styles.avatarWithBorder : styles.avatar} src="https://avatars.githubusercontent.com/u/85231417?v=4" />
+  );
+}
+
 export function Titles() {
   return (
+
     <><section className="pt-24 bg-gradient-to-b from-white to-gray-50 lg:pb-20 xl:px-0 px-10">
       <div className="max-w-5xl px-4 mx-auto">
         <div className="flex lg:flex-row flex-col-reverse items-center">
           <div className="w-full max-w-md mt-24 transform translate-y-10 lg:mt-0 px-4 mb-12 lg:mb-0 relative">
-
-            <Avatar src="https://avatars.githubusercontent.com/u/85231417?v=4" />
+            <Avatar />
           </div>
           <div className="w-full px-4">
             <div className="relative lg:max-w-none max-w-md mx-auto -mt-10">
@@ -17,7 +24,7 @@ export function Titles() {
                 </g>
               </svg>
               <LogoBig />
-              <p className="pt-6 text-2xl font-bold">Henrique Batista</p>
+              <p className="text-2xl font-bold">Henrique Batista</p>
               <p className="text-lg text-gray-500">Estudante de Engenharia de Software</p>
             </div>
           </div>

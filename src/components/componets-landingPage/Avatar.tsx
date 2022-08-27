@@ -1,7 +1,7 @@
 import styles from '../componets-landingPage/Avatar.module.css'
 
-export function Avatar({ hasBorder = true, src }) {
+export function Avatar() {
   return (
-    <img className={hasBorder ? styles.avatarWithBorder : styles.avatar} src={src} alt="" />
+    <img alt="" />
   );
 }
