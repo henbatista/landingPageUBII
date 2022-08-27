@@ -5,14 +5,12 @@ import { Content } from './components/componets-landingPage/Content'
 import { CallToActions } from './components/componets-landingPage/CallToActions'
 import { Footer } from './components/componets-landingPage/Footer'
 
-
 function App() {
 
   return (
     <>
       <Header />
       <Titles />
-      <Avatar />
       <Content />
       <CallToActions />
       <Footer />
