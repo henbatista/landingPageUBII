@@ -26,10 +26,22 @@ export function CallToActions() {
               </a>
             </div>
             <div className="row-span-2 col-span-full sm:col-span-1 md:col-start-1 xl:col-start-2 sm:row-start-4 md:row-start-5 xl:row-start-2">
-              <a href="https://henbatista.github.io/villa-real-sec-version/#home" className="relative flex flex-col items-start justify-end w-full h-full overflow-hidden bg-black shadow-lg rounded-xl group">
+              <a href="https://lnkd.in/dWWRnNqK" className="relative flex flex-col items-start justify-end w-full h-full overflow-hidden bg-black shadow-lg rounded-xl group">
                 <div className="absolute inset-0 w-full h-full">
                   <div className="absolute bottom-0 left-0 z-10 w-full h-full opacity-30 bg-gradient-to-b from-transparent to-gray-900"></div>
                   <img className="absolute inset-0 object-cover object-center w-full h-full transition duration-500 lg:opacity-80 group-hover:opacity-100 group-hover:scale-110" src="https://cdn.devdojo.com/images/september2021/member-management.jpeg" alt="" />
+                </div>
+                <div className="relative z-10 flex flex-col items-start justify-start w-full px-6 py-7">
+                  <span className="px-2 py-1 mb-3 text-xs font-semibold tracking-tight text-white uppercase bg-indigo-500 rounded-md">Web</span>
+                  <h4 className="text-4xl font-bold tracking-tight text-gray-100 sm:text-3xl md:text-2xl lg:text-3xl">Controle Financeiro</h4>
+                </div>
+              </a>
+            </div>
+            <div className="row-span-2 col-span-full sm:col-span-1 md:col-start-2 xl:col-start-2 sm:row-start-6 md:row-start-2 xl:row-start-4">
+              <a href="https://henbatista.github.io/villa-real-sec-version/#home" className="relative flex flex-col items-start justify-end w-full h-full overflow-hidden bg-black shadow-lg rounded-xl group" >
+                <div className="absolute inset-0 w-full h-full">
+                  <div className="absolute bottom-0 left-0 z-10 w-full h-full opacity-30 bg-gradient-to-b from-transparent to-gray-900"></div>
+                  <img className="absolute inset-0 object-cover object-center w-full h-full transition duration-500 lg:opacity-80 group-hover:opacity-100 group-hover:scale-110" src="https://cdn.devdojo.com/images/september2021/custom-navigation.jpeg" alt="" />
                 </div>
                 <div className="relative z-10 flex flex-col items-start justify-start w-full px-6 py-7">
                   <span className="px-2 py-1 mb-3 text-xs font-semibold tracking-tight text-white uppercase bg-indigo-500 rounded-md">Landing Page</span>
@@ -37,27 +49,15 @@ export function CallToActions() {
                 </div>
               </a>
             </div>
-            <div className="row-span-2 col-span-full sm:col-span-1 md:col-start-2 xl:col-start-2 sm:row-start-6 md:row-start-2 xl:row-start-4">
-              <a href="http://www.ubii.com.br" className="relative flex flex-col items-start justify-end w-full h-full overflow-hidden bg-black shadow-lg rounded-xl group" >
-                <div className="absolute inset-0 w-full h-full">
-                  <div className="absolute bottom-0 left-0 z-10 w-full h-full opacity-30 bg-gradient-to-b from-transparent to-gray-900"></div>
-                  <img className="absolute inset-0 object-cover object-center w-full h-full transition duration-500 lg:opacity-80 group-hover:opacity-100 group-hover:scale-110" src="https://cdn.devdojo.com/images/september2021/custom-navigation.jpeg" alt="" />
-                </div>
-                <div className="relative z-10 flex flex-col items-start justify-start w-full px-6 py-7">
-                  <span className="px-2 py-1 mb-3 text-xs font-semibold tracking-tight text-white uppercase bg-indigo-500 rounded-md">Web</span>
-                  <h4 className="text-4xl font-bold tracking-tight text-gray-100 sm:text-3xl md:text-2xl lg:text-3xl">Site em construção - Ubii</h4>
-                </div>
-              </a>
-            </div>
             <div className="row-span-2 col-span-full sm:col-span-1 md:col-start-2 xl:col-start-3 sm:row-start-1 md:row-start-4 xl:row-start-1">
-              <a href="#_" className="relative flex flex-col items-start justify-end w-full h-full overflow-hidden bg-black shadow-lg rounded-xl group" >
+              <a  href="http://www.ubii.com.br" className="relative flex flex-col items-start justify-end w-full h-full overflow-hidden bg-black shadow-lg rounded-xl group" >
                 <div className="absolute inset-0 w-full h-full">
                   <div className="absolute bottom-0 left-0 z-10 w-full h-full opacity-30 bg-gradient-to-b from-transparent to-gray-900"></div>
                   <img className="absolute inset-0 object-cover object-center w-full h-full transition duration-500 lg:opacity-80 group-hover:opacity-100 group-hover:scale-110" src="https://cdn.devdojo.com/images/september2021/integration-center.jpeg" alt="" />
                 </div>
                 <div className="relative z-10 flex flex-col items-start justify-start w-full px-6 py-7">
-                  <span className="px-2 py-1 mb-3 text-xs font-semibold tracking-tight text-white uppercase bg-indigo-500 rounded-md">Em breve</span>
-                  <h4 className="text-4xl font-bold tracking-tight text-gray-100 sm:text-3xl md:text-2xl lg:text-3xl">Em Breve!</h4>
+                  <span className="px-2 py-1 mb-3 text-xs font-semibold tracking-tight text-white uppercase bg-indigo-500 rounded-md">Web</span>
+                  <h4 className="text-4xl font-bold tracking-tight text-gray-100 sm:text-3xl md:text-2xl lg:text-3xl">Site em construção - Ubii</h4>
                 </div>
               </a>
             </div>
